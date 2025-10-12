@@ -50,5 +50,5 @@ Because `listOfPeople` is `public`, Solidity automatically generates a getter, s
 
 ## 🧩 Next Step Preview
 
-Tomorrow (Day 2): learn **mappings** — Solidity’s key-value data structure.  
-You’ll extend this contract to map a person’s name to their favorite number.
+Tomorrow (Day 2): learn **Data Locations** — Where data are stored: Storage, Memory and Calldata.
+
