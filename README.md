@@ -11,8 +11,9 @@ Each folder corresponds to a topic or day of study, containing `.sol` contracts 
 |---------|--------------|
 | [day01_simple_storage](day01_simple_storage/) | Basic Solidity syntax, variables, functions, structs, arrays |
 | [day02_data_locations](day02_data_locations/) | Memory vs Calldata vs Storage – how Solidity handles data in the EVM |
+| [day03_mappings](day03_mappings/) | Key → Value data structures for efficient lookups and data access |
 
-More sections will be added as learning continues (mappings, modifiers, inheritance, Hardhat, etc).
+More sections will be added as learning continues (modifiers, inheritance, Hardhat, etc).
 
 ---
 
