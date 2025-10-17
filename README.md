@@ -32,10 +32,10 @@ More sections will be added as learning continues (modifiers, inheritance, Hardh
 
 - Each folder contains a `notes.md` summarizing what was learned.
 - Contracts are written for clarity and explanation, not production use.
-- This repo is primarily for education and experimentation.
+- This repo is primarily for education and experimentation
 
 ---
 
-## License
+## License  
 
 MIT License
