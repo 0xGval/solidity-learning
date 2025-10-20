@@ -3,7 +3,8 @@
 This repository documents my progress learning **Solidity** and smart contract development.  
 Each folder corresponds to a topic or day of study, containing `.sol` contracts and concise notes.
 
-I’m following the **“Learn Solidity Smart Contract Development | Full 2024 Cyfrin Updraft Course”** by **Patrick Collins**, adapting the lessons and explanations in my own words.
+I’m following the **“Learn Solidity Smart Contract Development | Full 2024 Cyfrin Updraft Course”** by **Patrick Collins**, adapting the lessons and explanations in my own words.  
+Some projects (like *MiniBank*) are self-made recap exercises to reinforce concepts.
 
 ---
 
@@ -15,9 +16,8 @@ I’m following the **“Learn Solidity Smart Contract Development | Full 2024 C
 | [day02_data_locations](day02_data_locations/) | Memory vs Calldata vs Storage – how Solidity handles data in the EVM |
 | [day03_mappings](day03_mappings/) | Key → Value data structures for efficient lookups and data access |
 | [day04_factory](day04_factory/) | Deploying and interacting with multiple contracts using the Factory pattern |
-| [day05_fundme_fallbacks](day05_fund_me/) | Funding logic, withdraw patterns, ownership, and handling direct ETH transfers |
-
-More sections will be added as learning continues (Chainlink price feeds, libraries, inheritance, Hardhat, etc).
+| [day05_fundme_fallbacks](day05_fundme_fallbacks/) | Funding logic, withdraw patterns, ownership, and handling direct ETH transfers |
+| [day06_minibank](day06_minibank/) | 🏦 **MiniBank recap project** – deposits, withdrawals, mappings, modifiers, and fallback/receive |
 
 ---
 
@@ -35,6 +35,7 @@ More sections will be added as learning continues (Chainlink price feeds, librar
 
 - Each folder contains a `notes.md` summarizing what was learned.
 - Contracts are written for clarity and explanation, not production use.
+- Some lessons are direct from the Cyfrin Updraft course; others are personal recap projects.
 - This repo is primarily for education and experimentation.
 
 ---
