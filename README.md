@@ -8,7 +8,7 @@ Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) a
 
 ---
 
-## 📁 Structure
+##  Structure
 
 | Folder | Description |
 |---------|--------------|
@@ -25,7 +25,7 @@ Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) a
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 - **Solidity** `^0.8.x`
 - **Remix IDE** – for compiling and testing contracts quickly
@@ -35,7 +35,7 @@ Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) a
 
 ---
 
-## 🧠 Notes
+##  Notes
 
 - Each folder contains a `notes.md` summarizing what was learned.  
 - Contracts are written for clarity and explanation, not production use.  
@@ -44,6 +44,6 @@ Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) a
 
 ---
 
-## 🪪 License  
+##  License  
 
 MIT License
