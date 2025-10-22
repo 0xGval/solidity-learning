@@ -17,9 +17,9 @@ Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) a
 | [day03_mappings](day03_mappings/) | Key → Value data structures for efficient lookups and data access |
 | [day04_factory](day04_factory/) | Deploying and interacting with multiple contracts using the Factory pattern |
 | [day05_fundme_fallbacks](day05_fundme_fallbacks/) | Funding logic, withdraw patterns, ownership, and handling direct ETH transfers |
-| [day06_minibank](day06_minibank/) | **MiniBank recap project** – deposits, withdrawals, mappings, modifiers, and fallback/receive |
-| [day07_timelocked_vault](day07_timelocked_vault/) | **TimeLockedVault recap project** – user vaults with time-based locks, struct + mapping patterns, and safe ETH withdrawals |
-| [day08_allowance_wallet](day08_allowance_wallet/) | **Allowance Wallet** – reinforcing ownership, mappings, arrays, and loops |
+| [day06_minibank](day06_minibank_recap_project/) | **MiniBank recap project** – deposits, withdrawals, mappings, modifiers, and fallback/receive |
+| [day07_timelocked_vault](day07_timelocked_vault_recap_project/) | **TimeLockedVault recap project** – user vaults with time-based locks, struct + mapping patterns, and safe ETH withdrawals |
+| [day08_allowance_wallet](day08_allowance_wallet_recap_project/) | **Allowance Wallet** – reinforcing ownership, mappings, arrays, and loops |
 | [day09_arrays_deep_dive](day09_arrays_deep_dive/) | **Arrays Deep Dive** – adding, reading, updating, deleting, and looping through arrays |
 | [day09_task_management_system_recap_project](day09_task_management_system_recap_project/) | **Task Management System** – CRUD logic with structs, arrays, loops, modifiers, and validation |
 
