@@ -80,24 +80,18 @@ contract TaskManagementSystem {
     }
 
     /* REMOVE COMPLETED TASKS */
-    // Function to remove all completed tasks
+    // Function to remove all completed tasks safely
     function removeCompletedTasks() public {
-        uint256 tasksToRemove;
-
-        // Loop through all tasks and count the completed ones
-        for(uint256 index = 0; index < listOfTasks.length; index++) {
-            if (listOfTasks[index].isCompleted) { // If the task at the index is marked as completed
-                tasksToRemove++; // Increase the counter for tasks to remove
+        // We loop backwards to avoid skipping elements when using pop()
+        for (uint256 i = listOfTasks.length; i > 0; i--) {
+            uint256 index = i - 1; // Arrays are 0-based, so last element = length - 1
+            if (listOfTasks[index].isCompleted) {
+                listOfTasks[index] = listOfTasks[listOfTasks.length - 1]; // Move the last task into the deleted spot
+                listOfTasks.pop(); // Remove the last element (shrinks array by 1)
             }
         }
-
-        // Remove completed tasks after counting
-        for (uint256 i = 0; i < tasksToRemove; i++) {
-            // Perform swap-and-pop operation: Move the last task to the deleted spot
-            listOfTasks[i] = listOfTasks[listOfTasks.length - 1];
-            listOfTasks.pop(); // Remove the last task (reduces array length by 1)
-        }
     }
+
 
     /* CHECK IF TASKS ARRAY IS EMPTY */
     // Function to check if the task list is empty
