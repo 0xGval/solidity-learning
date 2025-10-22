@@ -4,11 +4,11 @@ This repository documents my progress learning **Solidity** and smart contract d
 Each folder corresponds to a topic or day of study, containing `.sol` contracts and concise notes.
 
 I’m following the **“Learn Solidity Smart Contract Development | Full 2024 Cyfrin Updraft Course”** by **Patrick Collins**, adapting the lessons and explanations in my own words.  
-Some projects (like *MiniBank* and *TimeLockedVault*) are self-made recap exercises to reinforce concepts.
+Some projects (like *MiniBank*, *TimeLockedVault*, and *TaskManagementSystem*) are self-made recap exercises to reinforce concepts.
 
 ---
 
-## Structure
+## 📁 Structure
 
 | Folder | Description |
 |---------|--------------|
@@ -19,10 +19,12 @@ Some projects (like *MiniBank* and *TimeLockedVault*) are self-made recap exerci
 | [day05_fundme_fallbacks](day05_fundme_fallbacks/) | Funding logic, withdraw patterns, ownership, and handling direct ETH transfers |
 | [day06_minibank](day06_minibank/) | 🏦 **MiniBank recap project** – deposits, withdrawals, mappings, modifiers, and fallback/receive |
 | [day07_timelocked_vault](day07_timelocked_vault/) | ⏳ **TimeLockedVault recap project** – user vaults with time-based locks, struct + mapping patterns, and safe ETH withdrawals |
+| [day08_arrays](day08_arrays/) | 📚 **Arrays deep dive** – adding, reading, updating, deleting, and looping through arrays |
+| [day09_task_management_system](day09_task_management_system/) | ✅ **Task Management System** – CRUD logic with structs, arrays, loops, modifiers, and validation |
 
 ---
 
-## Tools
+## 🧰 Tools Used
 
 - **Solidity** `^0.8.x`
 - **Remix IDE** – for compiling and testing contracts quickly
@@ -32,7 +34,7 @@ Some projects (like *MiniBank* and *TimeLockedVault*) are self-made recap exerci
 
 ---
 
-## Notes
+## 🧠 Notes
 
 - Each folder contains a `notes.md` summarizing what was learned.  
 - Contracts are written for clarity and explanation, not production use.  
@@ -41,6 +43,6 @@ Some projects (like *MiniBank* and *TimeLockedVault*) are self-made recap exerci
 
 ---
 
-## License  
+## 🪪 License  
 
 MIT License
